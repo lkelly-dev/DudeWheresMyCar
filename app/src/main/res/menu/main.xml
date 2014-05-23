@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.stratman.wheresmycar.MainActivity" >
+
+
+    <item android:id="@+id/set_location"
+        android:title="Set Location"
+        android:showAsAction="withText|always" />
+
+    <item android:id="@+id/find_car"
+        android:title="Find Car"
+        android:showAsAction="withText|always" />
+
+    <item android:id="@+id/action_notes"
+        android:icon="@drawable/ic_action_edit"
+        android:showAsAction="withText|always" />
+
+
+
+    <!--Items in dropdown-->
+
+    <item android:id="@+id/action_settings"
+        android:title="Settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        />
+
+    <item android:id="@+id/action_about"
+        android:title="About"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+
+        />
+
+    <item android:id="@+id/timer"
+        android:title="Timer"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        />
+
+
+</menu>

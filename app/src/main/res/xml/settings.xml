@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:title="Change Map Type"
+        android:summary="Change the type of map the application uses."
+        android:key="maptype"
+        android:defaultValue="1"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues" />
+
+    <CheckBoxPreference
+        android:title="Toggle Note Prompt"
+        android:defaultValue="true"
+        android:summary="Prompts for message when setting car location."
+        android:key="checkboxPref" />
+
+</PreferenceScreen>
