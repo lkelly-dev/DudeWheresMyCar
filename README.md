@@ -1,4 +1,4 @@
-DudeWheresMyCar
+Dude Where's My Car?
 ===============
 
-Allows users to save and later find the location of their vehicle.
+A simple Android application that allows users to save and later find the location of their vehicle.
